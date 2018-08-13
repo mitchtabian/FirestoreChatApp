@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "482608123904",
+    "firebase_url": "https://silver-harmony-212817.firebaseio.com",
+    "project_id": "silver-harmony-212817",
+    "storage_bucket": "silver-harmony-212817.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482608123904:android:6a2adede06d9e24e",
+        "android_client_info": {
+          "package_name": "com.codingwithmitch.googledirectionstest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482608123904-eulmj1657vrl29udm779lia0kdcm4siv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codingwithmitch.googledirectionstest",
+            "certificate_hash": "5452be846acdcd729bb27a60a61dabfe596954c4"
+          }
+        },
+        {
+          "client_id": "482608123904-5ci8llit1l8kgagqksl20k4q0q5htjof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNU8TSa18XAjs5kfsMsvQ-yw756pAS5Hc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482608123904-5ci8llit1l8kgagqksl20k4q0q5htjof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
