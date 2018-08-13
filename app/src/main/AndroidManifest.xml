@@ -12,7 +12,6 @@
         android:name=".UserClient">
         <activity android:name=".ui.MainActivity">
         </activity>
-        <activity android:name=".ui.MapsActivity" />
         <activity android:name=".ui.LoginActivity" >
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
