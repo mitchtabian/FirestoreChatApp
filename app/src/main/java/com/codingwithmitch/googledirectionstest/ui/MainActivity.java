@@ -87,10 +87,6 @@ public class MainActivity extends AppCompatActivity implements
         setTitle("Chatrooms");
     }
 
-    private void openMapsActivity(){
-            Intent intent = new Intent(MainActivity.this, MapsActivity.class);
-            startActivity(intent);
-    }
 
     public boolean isMapsEnabled(){
         final LocationManager manager = (LocationManager) getSystemService( Context.LOCATION_SERVICE );
