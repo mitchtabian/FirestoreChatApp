@@ -1,5 +1,4 @@
 <h1>FirestoreChatApp</h1>
-<hr>
 <h3>What is this project?</h3>
 <p>This is a simple real-time chat application built using Firebase Authentication and Firestore.</p>
 <h3>Application features:</h3>
