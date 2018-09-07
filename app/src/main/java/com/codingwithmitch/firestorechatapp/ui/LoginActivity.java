@@ -1,4 +1,4 @@
-package com.codingwithmitch.googledirectionstest.ui;
+package com.codingwithmitch.firestorechatapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,9 +13,9 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.codingwithmitch.googledirectionstest.R;
-import com.codingwithmitch.googledirectionstest.UserClient;
-import com.codingwithmitch.googledirectionstest.models.User;
+import com.codingwithmitch.firestorechatapp.R;
+import com.codingwithmitch.firestorechatapp.UserClient;
+import com.codingwithmitch.firestorechatapp.models.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;

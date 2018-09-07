@@ -1,4 +1,4 @@
-package com.codingwithmitch.googledirectionstest;
+package com.codingwithmitch.firestorechatapp;
 
 import org.junit.Test;
 

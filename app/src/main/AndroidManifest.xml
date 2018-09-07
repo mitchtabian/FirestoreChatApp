@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codingwithmitch.googledirectionstest">
+    package="com.codingwithmitch.firestorechatapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -22,17 +24,6 @@
         <activity android:name=".ui.RegisterActivity" />
         <activity android:name=".ui.ChatroomActivity" />
 
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_api_key"/>
 
     </application>
 

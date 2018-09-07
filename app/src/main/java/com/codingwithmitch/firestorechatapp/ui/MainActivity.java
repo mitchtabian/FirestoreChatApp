@@ -1,4 +1,4 @@
-package com.codingwithmitch.googledirectionstest.ui;
+package com.codingwithmitch.firestorechatapp.ui;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -21,10 +21,10 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.codingwithmitch.googledirectionstest.R;
-import com.codingwithmitch.googledirectionstest.adapters.ChatroomRecyclerAdapter;
-import com.codingwithmitch.googledirectionstest.models.Chatroom;
-import com.codingwithmitch.googledirectionstest.models.User;
+import com.codingwithmitch.firestorechatapp.R;
+import com.codingwithmitch.firestorechatapp.adapters.ChatroomRecyclerAdapter;
+import com.codingwithmitch.firestorechatapp.models.Chatroom;
+import com.codingwithmitch.firestorechatapp.models.User;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -47,7 +47,7 @@ import java.util.Set;
 
 import javax.annotation.Nullable;
 
-import static com.codingwithmitch.googledirectionstest.Constants.ERROR_DIALOG_REQUEST;
+import static com.codingwithmitch.firestorechatapp.Constants.ERROR_DIALOG_REQUEST;
 
 public class MainActivity extends AppCompatActivity implements
         View.OnClickListener,

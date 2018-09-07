@@ -1,4 +1,4 @@
-package com.codingwithmitch.googledirectionstest;
+package com.codingwithmitch.firestorechatapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

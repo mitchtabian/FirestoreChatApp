@@ -1,4 +1,4 @@
-package com.codingwithmitch.googledirectionstest.ui;
+package com.codingwithmitch.firestorechatapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,8 +14,8 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.codingwithmitch.googledirectionstest.R;
-import com.codingwithmitch.googledirectionstest.models.User;
+import com.codingwithmitch.firestorechatapp.R;
+import com.codingwithmitch.firestorechatapp.models.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
@@ -26,7 +26,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreSettings;
 
 import static android.text.TextUtils.isEmpty;
-import static com.codingwithmitch.googledirectionstest.util.Check.doStringsMatch;
+import static com.codingwithmitch.firestorechatapp.util.Check.doStringsMatch;
 
 
 public class RegisterActivity extends AppCompatActivity implements

@@ -1,8 +1,8 @@
-package com.codingwithmitch.googledirectionstest;
+package com.codingwithmitch.firestorechatapp;
 
 import android.app.Application;
 
-import com.codingwithmitch.googledirectionstest.models.User;
+import com.codingwithmitch.firestorechatapp.models.User;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class UserClient extends Application {

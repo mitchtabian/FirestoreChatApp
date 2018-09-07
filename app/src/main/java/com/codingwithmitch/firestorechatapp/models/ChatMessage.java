@@ -1,4 +1,4 @@
-package com.codingwithmitch.googledirectionstest.models;
+package com.codingwithmitch.firestorechatapp.models;
 
 import com.google.firebase.firestore.ServerTimestamp;
 

@@ -1,4 +1,4 @@
-package com.codingwithmitch.googledirectionstest.ui;
+package com.codingwithmitch.firestorechatapp.ui;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,9 +10,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.codingwithmitch.googledirectionstest.R;
-import com.codingwithmitch.googledirectionstest.adapters.UserRecyclerAdapter;
-import com.codingwithmitch.googledirectionstest.models.User;
+import com.codingwithmitch.firestorechatapp.R;
+import com.codingwithmitch.firestorechatapp.adapters.UserRecyclerAdapter;
+import com.codingwithmitch.firestorechatapp.models.User;
 
 import java.util.ArrayList;
 

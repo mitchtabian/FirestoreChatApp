@@ -1,4 +1,4 @@
-package com.codingwithmitch.googledirectionstest.adapters;
+package com.codingwithmitch.firestorechatapp.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,10 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.codingwithmitch.googledirectionstest.R;
-import com.codingwithmitch.googledirectionstest.models.ChatMessage;
-import com.codingwithmitch.googledirectionstest.models.Chatroom;
-import com.codingwithmitch.googledirectionstest.models.User;
+import com.codingwithmitch.firestorechatapp.R;
+import com.codingwithmitch.firestorechatapp.models.ChatMessage;
+import com.codingwithmitch.firestorechatapp.models.Chatroom;
+import com.codingwithmitch.firestorechatapp.models.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;

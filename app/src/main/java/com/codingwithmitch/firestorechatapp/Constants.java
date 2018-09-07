@@ -1,4 +1,4 @@
-package com.codingwithmitch.googledirectionstest;
+package com.codingwithmitch.firestorechatapp;
 
 public class Constants {
 

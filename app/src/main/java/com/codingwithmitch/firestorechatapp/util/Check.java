@@ -1,4 +1,4 @@
-package com.codingwithmitch.googledirectionstest.util;
+package com.codingwithmitch.firestorechatapp.util;
 
 public class Check {
 
