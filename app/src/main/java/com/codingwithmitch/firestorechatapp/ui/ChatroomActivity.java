@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,6 +14,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -212,6 +214,8 @@ public class ChatroomActivity extends AppCompatActivity implements
     }
 
     private void inflateUserListFragment(){
+        hideSoftKeyboard();
+
         UserListFragment fragment = UserListFragment.newInstance();
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList(getString(R.string.intent_user_list), mUserList);
@@ -222,6 +226,10 @@ public class ChatroomActivity extends AppCompatActivity implements
         transaction.replace(R.id.user_list_container, fragment, getString(R.string.fragment_user_list));
         transaction.addToBackStack(getString(R.string.fragment_user_list));
         transaction.commit();
+    }
+
+    private void hideSoftKeyboard(){
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
     }
 
 
@@ -253,6 +261,8 @@ public class ChatroomActivity extends AppCompatActivity implements
                 .document(FirebaseAuth.getInstance().getUid());
 
         User user = ((UserClient)(getApplicationContext())).getUser();
+
+        Log.d(TAG, "joinChatroom: user: " + user.getEmail());
         joinChatroomRef.set(user); // Don't care about listening for completion.
     }
 
